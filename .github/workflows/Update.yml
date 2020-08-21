@@ -288,6 +288,10 @@ jobs:
           git commit -m  "Update:${{steps.date.outputs.DATE}}"
           git push origin master
         fi
+        
+        
+    - name: run
+      run: go run
 
     - name: WeChat推送
       if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
