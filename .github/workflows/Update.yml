@@ -49,7 +49,7 @@ jobs:
     
     - name: Set git identity
       run : |
-        git config --global user.email "615563981@qq.com"
+        git config --global user.email "32961310+wudongdefeng@users.noreply.github.com"
         git config --global user.name "wudongdefeng"
     
     - name: 获取当前日期
