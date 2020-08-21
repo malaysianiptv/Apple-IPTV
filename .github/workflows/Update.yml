@@ -290,9 +290,7 @@ jobs:
         fi
         
         
-    - name: run
-      run: go run
-
+  
     - name: WeChat推送
       if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
       run: |
