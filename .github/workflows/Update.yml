@@ -49,8 +49,8 @@ jobs:
     
     - name: Set git identity
       run : |
-        git config --global user.email "hououinkami@gmail.com"
-        git config --global user.name "hououinkami"
+        git config --global user.email "32961310+wudongdefeng@users.noreply.github.com"
+        git config --global user.name "wudongdefeng"
     
     - name: 获取当前日期
       id: date
