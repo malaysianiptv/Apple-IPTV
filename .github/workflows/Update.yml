@@ -9,7 +9,7 @@ on:
   release:
     types: [published]
   schedule:
-    - cron: 0 5,15 * * *
+    - cron: 0 4,16 * * *
   watch:
     types: [started]
 
@@ -49,8 +49,8 @@ jobs:
     
     - name: Set git identity
       run : |
-        git config --global user.email "32961310+wudongdefeng@users.noreply.github.com"
-        git config --global user.name "wudongdefeng"
+        git config --global user.email "hououinkami@gmail.com"
+        git config --global user.name "hououinkami"
     
     - name: 获取当前日期
       id: date
@@ -288,9 +288,7 @@ jobs:
           git commit -m  "Update:${{steps.date.outputs.DATE}}"
           git push origin master
         fi
-        
-        
-  
+
     - name: WeChat推送
       if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
       run: |
