@@ -16,8 +16,8 @@ on:
 env:
   TZ: Asia/Shanghai
   WECHAT_NOTIFICATION: true
-  SOURCE_Sason: http://tv.sason.xyz/new.m3u
-  SOURCE_Sason_NAME: sason.m3u
+ #SOURCE_Sason: http://tv.sason.xyz/new.m3u
+ #SOURCE_Sason_NAME: sason.m3u
   SOURCE_boye: http://tv.boye.ml/iptv/tv.m3u
   SOURCE_boye_NAME: boye.m3u
   SOURCE_panda: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
